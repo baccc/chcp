@@ -1,0 +1,153 @@
+SELECT COUNT( DISTINCT uid ) , SUM( amount ) 
+FROM  `payment_201712` 
+WHERE uid
+IN (
+
+SELECT uid
+FROM  `platform` 
+WHERE appid =203
+AND pid LIKE  '0086%'
+AND TIME >=1511884800 +7 *86400
+AND TIME <1511971200 +7 *86400
+)
+AND createtime >=1511884800 +7 *86400
+AND createtime <1511971200 +7 *86400
+AND state =2
+
+SELECT COUNT( DISTINCT uid ) , SUM( amount ) 
+FROM  `payment_201712` 
+WHERE uid
+IN (
+
+SELECT uid
+FROM  `platform` 
+WHERE appid =240
+AND TIME >=1511884800 +7 *86400
+AND TIME <1511971200 +7 *86400
+)
+AND createtime >=1511884800 +7 *86400
+AND createtime <1511971200 +7 *86400
+AND state =2
+
+
+联系信息
+注册人联系人
+姓名： Ba Tian Long
+组织
+邮寄地址： hgfhjdgjh, gfbkhf Aichi 010000 JP
+电话： +0.54985664
+转接：
+传真：
+传真转接：
+电子邮件:woyaopay@gmail.com
+管理联系人
+姓名： Ba Tian Long
+组织
+邮寄地址： hgfhjdgjh, gfbkhf Aichi 010000 JP
+电话： +0.54985664
+转接：
+传真：
+传真转接：
+电子邮件:woyaopay@gmail.com
+技术联系人
+姓名： Ba Tian Long
+组织
+邮寄地址： hgfhjdgjh, gfbkhf Aichi 010000 JP
+电话： +0.54985664
+转接：
+传真：
+传真转接：
+电子邮件:woyaopay@gmail.com
+注册商
+WHOIS服务器： whois.godaddy.com
+网址: https://www.godaddy.com/
+注册商： Go Daddy, LLC
+互联网号码分配机构（IANA）编号： 146
+滥用举报联系电邮：abuse@godaddy.com
+滥用举报联系电话： +1.4805058800
+状态
+域名状态：ok https://icann.org/epp#ok
+重要日期
+更新日期： 2017-10-16
+生成日期： 2017-08-18
+Registry Expiry Date: 2018-08-18
+域名服务器
+NS23.DOMAINCONTROL.COM
+NS24.DOMAINCONTROL.COM
+WHOIS原始记录
+Domain Name: HD888.ONLINE
+Registry Domain ID: D51273603-CNIC
+Registrar WHOIS Server: whois.godaddy.com
+Registrar URL: https://www.godaddy.com/
+Updated Date: 2017-10-16T15:27:01.0Z
+Creation Date: 2017-08-18T11:51:56.0Z
+Registry Expiry Date: 2018-08-18T23:59:59.0Z
+Registrar: Go Daddy, LLC
+Registrar IANA ID: 146
+Domain Status: ok https://icann.org/epp#ok
+Registry Registrant ID: C142974184-CNIC
+Registrant Name: Ba Tian Long
+Registrant Organization:
+Registrant Street: hgfhjdgjh
+Registrant City: gfbkhf
+Registrant State/Province: Aichi
+Registrant Postal Code: 010000
+Registrant Country: JP
+Registrant Phone: +0.54985664
+Registrant Fax:
+Registrant Email: woyaopay@gmail.com
+Registry Admin ID: C142974193-CNIC
+Admin Name: Ba Tian Long
+Admin Organization:
+Admin Street: hgfhjdgjh
+Admin City: gfbkhf
+Admin State/Province: Aichi
+Admin Postal Code: 010000
+Admin Country: JP
+Admin Phone: +0.54985664
+Admin Fax:
+Admin Email: woyaopay@gmail.com
+Registry Tech ID: C142974189-CNIC
+Tech Name: Ba Tian Long
+Tech Organization:
+Tech Street: hgfhjdgjh
+Tech City: gfbkhf
+Tech State/Province: Aichi
+Tech Postal Code: 010000
+Tech Country: JP
+Tech Phone: +0.54985664
+Tech Fax:
+Tech Email: woyaopay@gmail.com
+Name Server: NS23.DOMAINCONTROL.COM
+Name Server: NS24.DOMAINCONTROL.COM
+DNSSEC: unsigned
+Registry Billing ID: C142974198-CNIC
+Billing Name: Ba Tian Long
+Billing Organization:
+Billing Street: hgfhjdgjh
+Billing City: gfbkhf
+Billing State/Province: Aichi
+Billing Postal Code: 010000
+Billing Country: JP
+Billing Phone: +0.54985664
+Billing Fax:
+Billing Email: woyaopay@gmail.com
+Registrar Abuse Contact Email: abuse@godaddy.com
+Registrar Abuse Contact Phone: +1.4805058800
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2017-12-06T02:58:21.0Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+This whois service is provided by CentralNic Ltd and only contains
+information pertaining to Internet domain names registered by our
+our customers. By using this service you are agreeing (1) not to use any
+information presented here for any purpose other than determining
+ownership of domain names, (2) not to store or reproduce this data in
+any way, (3) not to use any high-volume, automated, electronic processes
+to obtain data from this service. Abuse of this service is monitored and
+actions in contravention of these terms will result in being permanently
+blacklisted. All data is (c) CentralNic Ltd https://www.centralnic.com/
+
+Access to the whois service is rate limited. For more information, please
+see https://registrar-console.centralnic.com/pub/whois_guidance.

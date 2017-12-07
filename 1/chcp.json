@@ -1,5 +1,10 @@
 {
+  "name": "bacc",
+  "s3bucket": "bacc",
+  "s3region": "eu-west-1",
+  "ios_identifier": "id123456789",
+  "android_identifier": "com.boshi.bacc",
   "update": "now",
-  "content_url": "https://raw.githubusercontent.com/baccc/chcp/master/1/",
-  "release": "2017.12.07-10.50.42"
+  "content_url": "http://112.121.171.234/www/",
+  "release": "2017.12.07-11.34.13"
 }

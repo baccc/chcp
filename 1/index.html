@@ -143,33 +143,11 @@
 			document.write("\<script src='js2/game/lobby.js'>\<\/script>");
 			document.write("\<script src='js2/game.js'>\<\/script>");
         }
-
-		var fetchcount = 0;
-		
         function deviceready() {
 			StatusBar.hide();
 			initGame();
         }
         document.addEventListener('deviceready', this.deviceready, false);
-    </script>
-	<div class="initializing_bg" id="init_bg"></div>
-    <div class="initializing" id="init"></div>
-
-    <div id="checkStatus">正在检测资源更新</div>
-    <div id="percent">0% </div>
-
-    <script type="text/javascript">
-		var perc = 0;
-        var intervalID = 0;
-        var percent = document.getElementById("percent");
-        function loading() {
-            perc += parseInt(Math.random() * 5);
-            percent.innerHTML = perc + "%"
-            if (perc > 94) {
-                clearInterval(intervalID);
-            }
-        }
-        intervalID = setInterval(this.loading, 500)
     </script>
 </body>
 
